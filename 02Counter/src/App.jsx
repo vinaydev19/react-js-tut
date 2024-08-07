@@ -8,9 +8,11 @@ function App() {
     if (counter == 20) {
       setCounter(counter);
     } else {
-      setCounter(counter + 1);
+      setCounter((pervcounter) => pervcounter + 1);
+      setCounter((pervcounter) => pervcounter + 1);
+      setCounter((pervcounter) => pervcounter + 1);
+      setCounter((pervcounter) => pervcounter + 1); 
     }
-    console.log("click", counter);
   };
   const removevalue = () => {
     if (counter == 0) {
